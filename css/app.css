@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'beer_money';
+    src: url('../fonts/beer_money.eot');
+    src: url('../fonts/beer_money.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/beer_money.woff') format('woff'),
+         url('../fonts/beer_money.ttf') format('truetype');
+}
+body {
+    font-family: 'beer_money';
+    color: #fff;
+}
+.footer {
+         padding: 40px 0;
+    color: #087F90;
+    text-align: center;
+    background-color: #D8D8D8;
+    margin-top: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+    font-size: 24px;
+}
+.footer p:last-child {
+  margin-bottom: 0;
+}
+
+.my-carousel-control{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, .0001) 100%) !important;
+}
+.color-style{
+	color:#0E899B;
+}
+.content{
+  margin-top: 100px;
+}
+
+
+
+.header{
+      height: 70px;
+    background-color: #D8D8D8;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-bottom: 60px;
+}
+.header .menu-item{
+      padding: 7px;
+    font-size: 22px;
+    color: white;
+    background-color: #087F90;
+    transform: rotate(-90deg);
+    float: left;
+    margin-right: -45px;
+    margin-top: 19px;
+    text-align: left;
+    width: 100px;
+}
+
+.pocket{
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  position: relative;
+}
+.pocket:hover{
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.news-img{
+    width: 100%;
+}
+.news-description{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+      text-align: center;
+  background-color: #0E899B;
+  position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+        padding: 3px;
+}
+.news-description:hover,
+.news-description:focus{
+  color: #cdddeb;
+  text-decoration: none;
+}
+.news-type{
+        background-color: #0E899B;
+    color: white;
+    position: absolute;
+    left: 9px;
+    top: -6px;
+    padding: 3px;
+    font-size: 21px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.news-comm-count{
+      background-color: #0E899B;
+    color: white;
+    position: absolute;
+    right: 9px;
+    top: -6px;
+    padding: 3px;
+    font-size: 21px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.video{
+  background-color:#CD7174 !important;
+}
+.text{
+  background-color:#657E94 !important;
+}
+.photo{
+      background-color: #49A49B !important;
+}
+.music{
+      background-color: #705A9A !important;
+}
+.news-date{
+      right: -35px;
+    transform: rotate(90deg);
+    z-index: -1;
+    padding: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 13px;
+    bottom: 40px;
+    color: white;
+    position: absolute;
+}
+.news-date .video{
+  background-color: #BF686B;
+}
+.news-date .music{
+  background-color: #635088;
+}
+.news-date .text{
+  background-color: #5A7084;
+}
+.news-date .photo{
+  background-color: #42948C;
+}
+.more-news{
+      color: #000000;
+    /* background-color: transparent; */
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.most-popular-news{
+      color: #087F90;
+    font-size: 30px;
+}
+.box-shadow{
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.btn-collapse-header{
+  position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  height: 54px;
+    width: 54px;
+    float: left;
+    border: 2px solid #087F90;
+    margin-left: 10px;
+
+}
+.pocket-bar{
+  display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  background-color: #087F90;
+  width: 100%;
+  height: 3px;
+}
+.pocket-bar+.pocket-bar{
+  margin-top: 4px;
+}
+.pocket-logo{
+  font-size: 38px;
+    line-height: 70px;
+    font-weight: bold;
+    color: white;
+    padding-right: 15px;
+}
+.animate {
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s;
+}
+.pocket-menu-xs{
+    position: fixed;
+    background: #D8D8D8;
+    transform: translateY(-105px);
+    z-index: 1;
+    height: 131px;
+    margin-left: -13px;
+    width: 282px;
+}
+.search{
+  width: 180px;
+  margin-top: 18px;
+  margin-right: 15px;
+}
+.search-xs{
+  float: none !important;
+  width: 94%;
+  margin-bottom: 14px;
+      margin-left: 7px;
+}
